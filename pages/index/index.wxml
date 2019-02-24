@@ -1,0 +1,10 @@
+<!--index.wxml-->
+<view class='container' >
+  <canvas
+    canvas-id='demo'
+    bindtap='handleClick'
+    bindtouchstart='touchstart'
+    bindtouchmove='touchmove'
+    style='width:{{canvasWidth}}px; height:{{canvasHeight}}px'
+  ></canvas>
+</view>
